@@ -1,0 +1,30 @@
+{
+  "name": "buscaminas",
+  "version": "1.0.0",
+  "description": "Buscaminas",
+  "main": "index.htlm",
+  "scripts": {
+    "start": "parcel serve -d dist index.html",
+    "build": "parcel build index.html —public-url '.' "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToniPu/buscaminas.git"
+  },
+  "author": "ToniPu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToniPu/buscaminas/issues"
+  },
+  "homepage": "https://github.com/ToniPu/buscaminas#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "eslint": "^8.45.0",
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.1",
+    "eslint-plugin-promise": "^6.1.1",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.1.6"
+  }
+}
